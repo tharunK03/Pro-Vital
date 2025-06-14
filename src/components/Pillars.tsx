@@ -4,7 +4,7 @@ import activityImg from '../assets/fitness.jpg';
 import sleepImg from '../assets/sleep.jpg';
 import stressImg from '../assets/yoga.jpg';
 import socialImg from '../assets/food.jpg';
-import substanceImg from '../assets/fitness.jpg';
+import substanceImg from '../assets/drug.jpg';
 import leftArrow from '../assets/left arrow.png';
 import rightArrow from '../assets/right arrow.png';
 
