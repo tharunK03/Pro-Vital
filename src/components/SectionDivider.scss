@@ -1,0 +1,11 @@
+.section-divider {
+  width: 100%;
+  height: 36px;
+  background: linear-gradient(90deg, #f7c873 10%, #e89c5a 40%, #e15b64 70%, #b16fd2 100%);
+  transform: skewY(-3deg);
+  margin: 0;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  overflow-x: hidden;
+} 
