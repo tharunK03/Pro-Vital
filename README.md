@@ -3,8 +3,6 @@
 
 A pixel-perfect React frontend for a medical/lifestyle platform, matching Figma specifications for both desktop and mobile views.
 
-![Pro-Vital Desktop View](src/assets/desktop-preview.png)
-![Pro-Vital Mobile View](src/assets/mobile-preview.png)
 
 ## Features
 
@@ -79,10 +77,7 @@ npm run preview
 1.	Find your local IP address (Mac/Windows):
    ipconfig getifaddr en0 ---for mac
 
-2.	Start Vite server for network access:
-   npm run dev -- --host 0.0.0.0
-  	
-4.	Open this URL on your mobile browser:
+2.	Open this URL on your mobile browser:
    http://<your-local-ip>:3000/5174
 
 ## License
