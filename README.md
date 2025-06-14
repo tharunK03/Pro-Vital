@@ -1,4 +1,4 @@
-![Uploading Screenshot 2025-06-14 at 10.04.54 AM.png…]()
+
 
 
 A pixel-perfect React frontend for a medical/lifestyle platform, matching Figma specifications for both desktop and mobile views.
@@ -81,5 +81,8 @@ MIT License
 [tharunK03](https://github.com/tharunK03)
 
 ---
-![ProVital Preview](./src/assets/op1.png)
+DESKTOP VIEW OF PROVITAL
+<img width="1439" alt="Screenshot 2025-06-14 at 10 04 54 AM" src="https://github.com/user-attachments/assets/f255bd3b-205f-4146-a2e5-a88fa7553802" />
+<img width="1333" alt="Screenshot 2025-06-14 at 10 22 40 AM" src="https://github.com/user-attachments/assets/28750789-11e8-4d44-a59c-add8a8fe8a7e" />
+
 
