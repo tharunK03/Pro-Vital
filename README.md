@@ -98,8 +98,11 @@ DESKTOP VIEW OF PROVITAL
 Mobile view
 
 ![IMG_4522](https://github.com/user-attachments/assets/78fc1484-2436-40c6-bc57-c1cda726713f)
-![IMG_4522](https://github.com/user-attachments/assets/3ac4a739-4702-4a81-89fd-40b4022f69bc)
-![IMG_4522](https://github.com/user-attachments/assets/dc3356e8-349a-4b38-998f-8f7d4ea5d348)
+![IMG_4524](https://github.com/user-attachments/assets/49a7d738-d310-46af-90ed-5fef1c122c0d)
+![IMG_4525](https://github.com/user-attachments/assets/fe835c0c-6f22-4be6-9769-4b6c1b283afb)
+
+
+
 
 
 
