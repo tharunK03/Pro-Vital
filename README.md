@@ -1,54 +1,84 @@
-# React + TypeScript + Vite
+<img width="1440" alt="Screenshot 2025-06-14 at 10 05 55 AM" src="https://github.com/user-attachments/assets/f81f988c-0a7d-4bd0-b1d1-0c8f3a6ff21b" /><img width="1440" alt="Screenshot 2025-06-14 at 10 05 17 AM" src="https://github.com/user-attachments/assets/8c6563d4-d64c-4680-8a6b-c7859b2c74b9" /># Pro-Vital
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A pixel-perfect React frontend for a medical/lifestyle platform, matching Figma specifications for both desktop and mobile views.
 
-Currently, two official plugins are available:
+![Pro-Vital Desktop View](src/assets/desktop-preview.png)
+![Pro-Vital Mobile View](src/assets/mobile-preview.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Pixel-perfect Figma implementation
+- Responsive design for desktop and mobile
+- Animated hero section with looping images
+- Interactive pillars with horizontal scroll
+- Custom search bar and navigation
+- No CSS frameworks (pure SCSS)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Tech Stack
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- React 18
+- TypeScript
+- Vite
+- SCSS
+
+## Quick Start
+
+1. **Clone and install**
+   ```bash
+   git clone https://github.com/tharunK03/Pro-Vital.git
+   cd Pro-Vital
+   npm install
+   ```
+
+2. **Run the development server**
+   ```bash
+   npm run dev
+   ```
+
+3. **Access the application**
+   - Desktop: [http://localhost:3000](http://localhost:3000)
+   - Mobile: Use your local network IP (e.g., http://192.168.1.xxx:3000)
+
+## Project Structure
+
+```
+Pro-Vital/
+├── src/
+│   ├── assets/           # Images and icons
+│   ├── components/       # React components
+│   │   ├── Header.tsx
+│   │   ├── Hero.tsx
+│   │   ├── Navbar.tsx
+│   │   ├── Pillars.tsx
+│   │   ├── SearchBar.tsx
+│   │   └── SectionDivider.tsx
+│   ├── App.tsx
+│   └── main.tsx
+├── package.json
+└── vite.config.ts
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Development
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+```bash
+# Start development server
+npm run dev
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
 ```
+
+## License
+
+MIT License
+
+## Author
+
+[tharunK03](https://github.com/tharunK03)
+
+---
+![ProVital Preview](./src/assets/op1.png)
+
