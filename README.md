@@ -65,12 +65,25 @@ Pro-Vital/
 # Start development server
 npm run dev
 
+# Start server and allow mobile access on same Wi-Fi
+npm run dev -- --host 0.0.0.0
+
 # Build for production
 npm run build
 
 # Preview production build
 npm run preview
 ```
+📱 Access on Mobile (Same Wi-Fi)
+
+1.	Find your local IP address (Mac/Windows):
+   ipconfig getifaddr en0 ---for mac
+
+2.	Start Vite server for network access:
+   npm run dev -- --host 0.0.0.0
+  	
+4.	Open this URL on your mobile browser:
+   http://<your-local-ip>:3000/5174
 
 ## License
 
@@ -84,5 +97,15 @@ MIT License
 DESKTOP VIEW OF PROVITAL
 <img width="1439" alt="Screenshot 2025-06-14 at 10 04 54 AM" src="https://github.com/user-attachments/assets/f255bd3b-205f-4146-a2e5-a88fa7553802" />
 <img width="1333" alt="Screenshot 2025-06-14 at 10 22 40 AM" src="https://github.com/user-attachments/assets/28750789-11e8-4d44-a59c-add8a8fe8a7e" />
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Mobile view
+
+![IMG_4522](https://github.com/user-attachments/assets/78fc1484-2436-40c6-bc57-c1cda726713f)
+![IMG_4522](https://github.com/user-attachments/assets/3ac4a739-4702-4a81-89fd-40b4022f69bc)
+![IMG_4522](https://github.com/user-attachments/assets/dc3356e8-349a-4b38-998f-8f7d4ea5d348)
+
+
 
 
